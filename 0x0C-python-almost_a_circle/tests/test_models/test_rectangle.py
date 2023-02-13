@@ -548,7 +548,8 @@ class RectangleTest(unittest.TestCase):
         self.assertEqual(r1.height, 3)
         self.assertEqual(r1.x, 0)
         self.assertEqual(r1.y, 0)
-            def test_rect_to_dictionary(self):
+
+    def test_rect_to_dictionary(self):
         """ test the to_dictionary method """
 
         r1 = Rectangle(10, 2, 1, 2, 5)
@@ -686,7 +687,8 @@ class RectangleTest(unittest.TestCase):
         self.assertEqual(r1.height, 1)
         self.assertEqual(r1.x, 0)
         self.assertEqual(r1.y, 0)
-def test_rect_load_from_file(self):
+
+    def test_rect_load_from_file(self):
         """ test the load_from_file method """
 
         r1 = Rectangle(10, 7, 2, 8)

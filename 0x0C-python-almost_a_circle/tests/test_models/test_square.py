@@ -668,7 +668,9 @@ class TestSquare(unittest.TestCase):
             self.assertEqual(sqr_list_output[i].y, sqr_list[i].y)
 
     def test_rect_load_from_file_args(self):
-        """ test the load from file method with args """s1 = Square(3)
+        """ test the load from file method with args """
+
+        s1 = Square(3)
         s2 = Square(5)
         sqr_list = [s1, s2]
 
