@@ -398,8 +398,10 @@ class TestSquare(unittest.TestCase):
 
         s1 = Square(16)
 
-        # size errorswith self.assertRaises(ValueError):
+        # size errors
+        with self.assertRaises(ValueError):
             s1.update(1, -5, 1)
+        
         with self.assertRaises(ValueError):
             s1.update(1, 0)
 

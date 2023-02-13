@@ -97,7 +97,8 @@ class RectangleTest(unittest.TestCase):
             r5.y = -2
         with self.assertRaises(ValueError):
             r5.y = -100000
-def test_rect_no_x(self):
+
+    def test_rect_no_x(self):
         """ test rect without x """
 
         r1 = Rectangle(20, 117)
